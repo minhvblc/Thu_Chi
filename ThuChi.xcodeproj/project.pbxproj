@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651CD4B7267C96F3007C0D09 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CD4B5267C96F3007C0D09 /* CreateViewController.swift */; };
+		651CD4B8267C96F3007C0D09 /* CreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651CD4B6267C96F3007C0D09 /* CreateViewController.xib */; };
+		651CD4BC267C9705007C0D09 /* SoGiaoDichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CD4BA267C9705007C0D09 /* SoGiaoDichViewController.swift */; };
+		651CD4BD267C9705007C0D09 /* SoGiaoDichViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651CD4BB267C9705007C0D09 /* SoGiaoDichViewController.xib */; };
+		651CD4D3267CA74B007C0D09 /* ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CD4D1267CA74B007C0D09 /* ChooseTypeViewController.swift */; };
+		651CD4D4267CA74B007C0D09 /* ChooseTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651CD4D2267CA74B007C0D09 /* ChooseTypeViewController.xib */; };
+		651CD4DA267CA78D007C0D09 /* TypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CD4D9267CA78D007C0D09 /* TypeEnum.swift */; };
+		651CD4E0267CB5EC007C0D09 /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CD4DE267CB5EC007C0D09 /* TypeTableViewCell.swift */; };
+		651CD4E1267CB5EC007C0D09 /* TypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651CD4DF267CB5EC007C0D09 /* TypeTableViewCell.xib */; };
+		65503F492680805D0031A0ED /* extensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65503F482680805D0031A0ED /* extensionDate.swift */; };
+		65637190267E304800570AD8 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6563718E267E304800570AD8 /* DetailTableViewCell.swift */; };
+		65637191267E304800570AD8 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6563718F267E304800570AD8 /* DetailTableViewCell.xib */; };
+		65637195267E3C9E00570AD8 /* GiaoDichModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65637194267E3C9E00570AD8 /* GiaoDichModel.swift */; };
+		6569A62E268368E0003D3761 /* extensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A62D268368E0003D3761 /* extensionString.swift */; };
+		6569A631268368F0003D3761 /* extensionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569A630268368F0003D3761 /* extensionTextField.swift */; };
+		6596DA59267C908A001535DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596DA58267C908A001535DE /* AppDelegate.swift */; };
+		6596DA5B267C908A001535DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6596DA5A267C908A001535DE /* SceneDelegate.swift */; };
+		6596DA62267C908B001535DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6596DA61267C908B001535DE /* Assets.xcassets */; };
+		6596DA65267C908B001535DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6596DA63267C908B001535DE /* LaunchScreen.storyboard */; };
+		65B51D802681990800FCA0E3 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B51D7E2681990800FCA0E3 /* TabbarViewController.swift */; };
+		65B51D8526819A7500FCA0E3 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B51D8326819A7500FCA0E3 /* ReportViewController.swift */; };
+		65B51D8626819A7500FCA0E3 /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B51D8426819A7500FCA0E3 /* ReportViewController.xib */; };
+		CEA9ECB95DF6891BD8317B79 /* Pods_ThuChi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0500DED1A93C9A7E0A5C218F /* Pods_ThuChi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0500DED1A93C9A7E0A5C218F /* Pods_ThuChi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThuChi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E070E2DBDC00D39B6434D7 /* Pods-ThuChi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThuChi.debug.xcconfig"; path = "Target Support Files/Pods-ThuChi/Pods-ThuChi.debug.xcconfig"; sourceTree = "<group>"; };
+		651CD4B5267C96F3007C0D09 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		651CD4B6267C96F3007C0D09 /* CreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateViewController.xib; sourceTree = "<group>"; };
+		651CD4BA267C9705007C0D09 /* SoGiaoDichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoGiaoDichViewController.swift; sourceTree = "<group>"; };
+		651CD4BB267C9705007C0D09 /* SoGiaoDichViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoGiaoDichViewController.xib; sourceTree = "<group>"; };
+		651CD4D1267CA74B007C0D09 /* ChooseTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTypeViewController.swift; sourceTree = "<group>"; };
+		651CD4D2267CA74B007C0D09 /* ChooseTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseTypeViewController.xib; sourceTree = "<group>"; };
+		651CD4D9267CA78D007C0D09 /* TypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEnum.swift; sourceTree = "<group>"; };
+		651CD4DE267CB5EC007C0D09 /* TypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
+		651CD4DF267CB5EC007C0D09 /* TypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeTableViewCell.xib; sourceTree = "<group>"; };
+		65503F482680805D0031A0ED /* extensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionDate.swift; sourceTree = "<group>"; };
+		6563718E267E304800570AD8 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		6563718F267E304800570AD8 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		65637194267E3C9E00570AD8 /* GiaoDichModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaoDichModel.swift; sourceTree = "<group>"; };
+		6569A62D268368E0003D3761 /* extensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionString.swift; sourceTree = "<group>"; };
+		6569A630268368F0003D3761 /* extensionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionTextField.swift; sourceTree = "<group>"; };
+		6596DA55267C908A001535DE /* ThuChi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThuChi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6596DA58267C908A001535DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6596DA5A267C908A001535DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6596DA61267C908B001535DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6596DA64267C908B001535DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6596DA66267C908B001535DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B51D7E2681990800FCA0E3 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		65B51D8326819A7500FCA0E3 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		65B51D8426819A7500FCA0E3 /* ReportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportViewController.xib; sourceTree = "<group>"; };
+		9F3150AFA141817DD90970F7 /* Pods-ThuChi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThuChi.release.xcconfig"; path = "Target Support Files/Pods-ThuChi/Pods-ThuChi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6596DA52267C908A001535DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA9ECB95DF6891BD8317B79 /* Pods_ThuChi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD0CF4C255ABE2A4AE35B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0500DED1A93C9A7E0A5C218F /* Pods_ThuChi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		651CD4CF267CA723007C0D09 /* CreateView */ = {
+			isa = PBXGroup;
+			children = (
+				651CD4D0267CA733007C0D09 /* ChooseType */,
+				651CD4B6267C96F3007C0D09 /* CreateViewController.xib */,
+				651CD4B5267C96F3007C0D09 /* CreateViewController.swift */,
+			);
+			path = CreateView;
+			sourceTree = "<group>";
+		};
+		651CD4D0267CA733007C0D09 /* ChooseType */ = {
+			isa = PBXGroup;
+			children = (
+				651CD4DD267CB5D2007C0D09 /* TypeCell */,
+				651CD4D1267CA74B007C0D09 /* ChooseTypeViewController.swift */,
+				651CD4D2267CA74B007C0D09 /* ChooseTypeViewController.xib */,
+			);
+			path = ChooseType;
+			sourceTree = "<group>";
+		};
+		651CD4D7267CA752007C0D09 /* SoGiaoDich */ = {
+			isa = PBXGroup;
+			children = (
+				6563718D267E303600570AD8 /* DetailCell */,
+				651CD4BB267C9705007C0D09 /* SoGiaoDichViewController.xib */,
+				651CD4BA267C9705007C0D09 /* SoGiaoDichViewController.swift */,
+			);
+			path = SoGiaoDich;
+			sourceTree = "<group>";
+		};
+		651CD4D8267CA762007C0D09 /* BaoCao */ = {
+			isa = PBXGroup;
+			children = (
+				65B51D8326819A7500FCA0E3 /* ReportViewController.swift */,
+				65B51D8426819A7500FCA0E3 /* ReportViewController.xib */,
+			);
+			path = BaoCao;
+			sourceTree = "<group>";
+		};
+		651CD4DD267CB5D2007C0D09 /* TypeCell */ = {
+			isa = PBXGroup;
+			children = (
+				651CD4DE267CB5EC007C0D09 /* TypeTableViewCell.swift */,
+				651CD4DF267CB5EC007C0D09 /* TypeTableViewCell.xib */,
+			);
+			path = TypeCell;
+			sourceTree = "<group>";
+		};
+		65503F472680804A0031A0ED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65503F482680805D0031A0ED /* extensionDate.swift */,
+				6569A62D268368E0003D3761 /* extensionString.swift */,
+				6569A630268368F0003D3761 /* extensionTextField.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6563718D267E303600570AD8 /* DetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				6563718E267E304800570AD8 /* DetailTableViewCell.swift */,
+				6563718F267E304800570AD8 /* DetailTableViewCell.xib */,
+			);
+			path = DetailCell;
+			sourceTree = "<group>";
+		};
+		6596DA4C267C908A001535DE = {
+			isa = PBXGroup;
+			children = (
+				6596DA57267C908A001535DE /* ThuChi */,
+				6596DA56267C908A001535DE /* Products */,
+				87BB3B2A91A62DD5DE38BA7A /* Pods */,
+				3DD0CF4C255ABE2A4AE35B67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6596DA56267C908A001535DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6596DA55267C908A001535DE /* ThuChi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6596DA57267C908A001535DE /* ThuChi */ = {
+			isa = PBXGroup;
+			children = (
+				65503F472680804A0031A0ED /* Extension */,
+				6596DA70267C9193001535DE /* View */,
+				6596DA6E267C917F001535DE /* Model */,
+				6596DA58267C908A001535DE /* AppDelegate.swift */,
+				6596DA5A267C908A001535DE /* SceneDelegate.swift */,
+				6596DA61267C908B001535DE /* Assets.xcassets */,
+				6596DA63267C908B001535DE /* LaunchScreen.storyboard */,
+				6596DA66267C908B001535DE /* Info.plist */,
+			);
+			path = ThuChi;
+			sourceTree = "<group>";
+		};
+		6596DA6E267C917F001535DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				651CD4D9267CA78D007C0D09 /* TypeEnum.swift */,
+				65637194267E3C9E00570AD8 /* GiaoDichModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6596DA70267C9193001535DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				651CD4D8267CA762007C0D09 /* BaoCao */,
+				651CD4D7267CA752007C0D09 /* SoGiaoDich */,
+				651CD4CF267CA723007C0D09 /* CreateView */,
+				65B51D7E2681990800FCA0E3 /* TabbarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87BB3B2A91A62DD5DE38BA7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36E070E2DBDC00D39B6434D7 /* Pods-ThuChi.debug.xcconfig */,
+				9F3150AFA141817DD90970F7 /* Pods-ThuChi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6596DA54267C908A001535DE /* ThuChi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6596DA69267C908B001535DE /* Build configuration list for PBXNativeTarget "ThuChi" */;
+			buildPhases = (
+				DDC17F54177234A678CB353B /* [CP] Check Pods Manifest.lock */,
+				6596DA51267C908A001535DE /* Sources */,
+				6596DA52267C908A001535DE /* Frameworks */,
+				6596DA53267C908A001535DE /* Resources */,
+				D6244076B9B83AAD3216E8E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThuChi;
+			productName = ThuChi;
+			productReference = 6596DA55267C908A001535DE /* ThuChi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6596DA4D267C908A001535DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6596DA54267C908A001535DE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6596DA50267C908A001535DE /* Build configuration list for PBXProject "ThuChi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6596DA4C267C908A001535DE;
+			productRefGroup = 6596DA56267C908A001535DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6596DA54267C908A001535DE /* ThuChi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6596DA53267C908A001535DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B51D8626819A7500FCA0E3 /* ReportViewController.xib in Resources */,
+				651CD4B8267C96F3007C0D09 /* CreateViewController.xib in Resources */,
+				65637191267E304800570AD8 /* DetailTableViewCell.xib in Resources */,
+				651CD4BD267C9705007C0D09 /* SoGiaoDichViewController.xib in Resources */,
+				6596DA65267C908B001535DE /* LaunchScreen.storyboard in Resources */,
+				651CD4E1267CB5EC007C0D09 /* TypeTableViewCell.xib in Resources */,
+				6596DA62267C908B001535DE /* Assets.xcassets in Resources */,
+				651CD4D4267CA74B007C0D09 /* ChooseTypeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6244076B9B83AAD3216E8E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThuChi/Pods-ThuChi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThuChi/Pods-ThuChi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThuChi/Pods-ThuChi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC17F54177234A678CB353B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThuChi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6596DA51267C908A001535DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651CD4BC267C9705007C0D09 /* SoGiaoDichViewController.swift in Sources */,
+				6569A62E268368E0003D3761 /* extensionString.swift in Sources */,
+				65B51D8526819A7500FCA0E3 /* ReportViewController.swift in Sources */,
+				6569A631268368F0003D3761 /* extensionTextField.swift in Sources */,
+				651CD4D3267CA74B007C0D09 /* ChooseTypeViewController.swift in Sources */,
+				65637195267E3C9E00570AD8 /* GiaoDichModel.swift in Sources */,
+				65503F492680805D0031A0ED /* extensionDate.swift in Sources */,
+				651CD4B7267C96F3007C0D09 /* CreateViewController.swift in Sources */,
+				651CD4E0267CB5EC007C0D09 /* TypeTableViewCell.swift in Sources */,
+				65B51D802681990800FCA0E3 /* TabbarViewController.swift in Sources */,
+				6596DA59267C908A001535DE /* AppDelegate.swift in Sources */,
+				6596DA5B267C908A001535DE /* SceneDelegate.swift in Sources */,
+				65637190267E304800570AD8 /* DetailTableViewCell.swift in Sources */,
+				651CD4DA267CA78D007C0D09 /* TypeEnum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6596DA63267C908B001535DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6596DA64267C908B001535DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6596DA67267C908B001535DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6596DA68267C908B001535DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6596DA6A267C908B001535DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E070E2DBDC00D39B6434D7 /* Pods-ThuChi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLD774DUQ3;
+				INFOPLIST_FILE = ThuChi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.ThuChi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6596DA6B267C908B001535DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3150AFA141817DD90970F7 /* Pods-ThuChi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLD774DUQ3;
+				INFOPLIST_FILE = ThuChi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.ThuChi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6596DA50267C908A001535DE /* Build configuration list for PBXProject "ThuChi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6596DA67267C908B001535DE /* Debug */,
+				6596DA68267C908B001535DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6596DA69267C908B001535DE /* Build configuration list for PBXNativeTarget "ThuChi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6596DA6A267C908B001535DE /* Debug */,
+				6596DA6B267C908B001535DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6596DA4D267C908A001535DE /* Project object */;
+}

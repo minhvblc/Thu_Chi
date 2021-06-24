@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateViewController" customModule="ThuChi" customModuleProvider="target">
+            <connections>
+                <outlet property="dateTF" destination="g5L-Ad-Z0j" id="HFQ-Cd-sNf"/>
+                <outlet property="descriptionTF" destination="Rhq-nw-xEH" id="Isv-iz-grn"/>
+                <outlet property="moneyTF" destination="6aU-MM-iHH" id="1Gx-A5-v9N"/>
+                <outlet property="saveBtn" destination="bg7-te-22F" id="uLp-Rk-q4s"/>
+                <outlet property="scrollView" destination="rPM-Sr-alB" id="nxn-i9-Jiv"/>
+                <outlet property="thuChiSegment" destination="wC1-2V-AiY" id="5Cf-NA-y2E"/>
+                <outlet property="typeBtn" destination="ZUb-he-7or" id="WBD-VO-poJ"/>
+                <outlet property="typeTF" destination="Vay-CR-WSB" id="NTO-Qf-fN8"/>
+                <outlet property="updateBtn" destination="xRe-F5-b6O" id="q33-Yi-S7A"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPM-Sr-alB">
+                    <rect key="frame" x="16" y="64" width="382" height="720"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="nyh-0N-YlQ">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="520"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tUI-Dl-rid">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tHz-4I-Zwe">
+                                            <rect key="frame" x="0.0" y="0.5" width="50" height="39"/>
+                                            <color key="tintColor" red="0.30980392159999998" green="0.71372549019999998" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="MG9-up-Z7q"/>
+                                                <constraint firstAttribute="width" constant="50" id="dQs-nD-TgD"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="uen-yY-K31"/>
+                                            </constraints>
+                                        </imageView>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập tiền" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6aU-MM-iHH" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                            <rect key="frame" x="60" y="0.0" width="322" height="40"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                    <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                    <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Rk6-DD-gQS">
+                                    <rect key="frame" x="0.0" y="80" width="382" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bag" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t69-u7-8kH">
+                                            <rect key="frame" x="0.0" y="-0.5" width="50" height="39"/>
+                                            <color key="tintColor" red="0.30980392159999998" green="0.71372549019999998" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="Ctk-h0-C7q"/>
+                                            </constraints>
+                                        </imageView>
+                                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wC1-2V-AiY">
+                                            <rect key="frame" x="60" y="0.0" width="322" height="41"/>
+                                            <segments>
+                                                <segment title="Thu"/>
+                                                <segment title="Chi"/>
+                                            </segments>
+                                            <color key="selectedSegmentTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="segmentCOntrol:" destination="-1" eventType="valueChanged" id="cpf-su-VR1"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vBb-7W-DYE">
+                                    <rect key="frame" x="0.0" y="160" width="382" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionmark.square.dashed" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="L6C-Tt-S1V">
+                                            <rect key="frame" x="0.0" y="1" width="50" height="37.5"/>
+                                            <color key="tintColor" red="0.30980392159999998" green="0.71372549019999998" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="Q11-rU-8Q2"/>
+                                            </constraints>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q4l-34-8Re">
+                                            <rect key="frame" x="60" y="0.0" width="322" height="40"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Chọn loại" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vay-CR-WSB" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                    <rect key="frame" x="0.0" y="0.0" width="322" height="40"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                            <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUb-he-7or">
+                                                    <rect key="frame" x="0.0" y="0.0" width="322" height="40"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <connections>
+                                                        <action selector="chooseTypeBtn:" destination="-1" eventType="touchUpInside" id="r6j-gi-Reh"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="ZUb-he-7or" secondAttribute="bottom" id="VuJ-iC-7ao"/>
+                                                <constraint firstItem="ZUb-he-7or" firstAttribute="leading" secondItem="q4l-34-8Re" secondAttribute="leading" id="YTf-cj-mZ1"/>
+                                                <constraint firstAttribute="bottom" secondItem="Vay-CR-WSB" secondAttribute="bottom" id="cq5-sq-VK2"/>
+                                                <constraint firstItem="ZUb-he-7or" firstAttribute="top" secondItem="q4l-34-8Re" secondAttribute="top" id="hPa-cH-6w9"/>
+                                                <constraint firstAttribute="trailing" secondItem="Vay-CR-WSB" secondAttribute="trailing" id="i9o-Uv-slc"/>
+                                                <constraint firstItem="Vay-CR-WSB" firstAttribute="leading" secondItem="q4l-34-8Re" secondAttribute="leading" id="kkW-xn-s2D"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZUb-he-7or" secondAttribute="trailing" id="mOn-BV-Cbq"/>
+                                                <constraint firstItem="Vay-CR-WSB" firstAttribute="top" secondItem="q4l-34-8Re" secondAttribute="top" id="xbP-0d-l5C"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rDq-yi-HuG">
+                                    <rect key="frame" x="0.0" y="240" width="382" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="highlighter" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cMs-f8-OtZ">
+                                            <rect key="frame" x="0.0" y="-1.5" width="50" height="40"/>
+                                            <color key="tintColor" red="0.30980392159999998" green="0.71372549019999998" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="X4V-vg-MwF"/>
+                                            </constraints>
+                                        </imageView>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Chú thích" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rhq-nw-xEH" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                            <rect key="frame" x="60" y="0.0" width="322" height="40"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                    <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lxx-kn-ehm">
+                                    <rect key="frame" x="0.0" y="320" width="382" height="40"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Gj8-hl-DCe">
+                                            <rect key="frame" x="0.0" y="1" width="50" height="37.5"/>
+                                            <color key="tintColor" red="0.30980392159999998" green="0.71372549019999998" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="oxq-ts-bAy"/>
+                                            </constraints>
+                                        </imageView>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Chọn ngày" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g5L-Ad-Z0j" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                            <rect key="frame" x="60" y="0.0" width="322" height="40"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                    <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg7-te-22F">
+                                    <rect key="frame" x="0.0" y="400" width="382" height="40"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                    <state key="normal" title="LƯU">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="saveBtn:" destination="-1" eventType="touchUpInside" id="8cK-bt-9yj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRe-F5-b6O">
+                                    <rect key="frame" x="0.0" y="480" width="382" height="40"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                    <state key="normal" title="Cập nhật">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="updateGD:" destination="-1" eventType="touchUpInside" id="PJu-R3-AA7"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="nyh-0N-YlQ" firstAttribute="width" secondItem="rPM-Sr-alB" secondAttribute="width" id="Qqa-No-4Ge"/>
+                        <constraint firstAttribute="trailing" secondItem="nyh-0N-YlQ" secondAttribute="trailing" id="XCr-QS-iql"/>
+                        <constraint firstItem="nyh-0N-YlQ" firstAttribute="leading" secondItem="rPM-Sr-alB" secondAttribute="leading" id="dEQ-4G-9p0"/>
+                        <constraint firstAttribute="bottom" secondItem="nyh-0N-YlQ" secondAttribute="bottom" constant="200" id="gns-RX-iIz"/>
+                        <constraint firstItem="nyh-0N-YlQ" firstAttribute="top" secondItem="rPM-Sr-alB" secondAttribute="top" id="mDT-TX-0ql"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rPM-Sr-alB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="X0U-0W-8eS"/>
+                <constraint firstAttribute="trailing" secondItem="rPM-Sr-alB" secondAttribute="trailing" constant="16" id="bNd-bc-mJx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rPM-Sr-alB" secondAttribute="bottom" constant="78" id="fBx-jz-wS8"/>
+                <constraint firstItem="rPM-Sr-alB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="wLT-GU-NRa"/>
+            </constraints>
+            <point key="canvasLocation" x="107" y="99"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="6aU-MM-iHH">
+            <size key="intrinsicContentSize" width="132" height="39.5"/>
+        </designable>
+        <designable name="Rhq-nw-xEH">
+            <size key="intrinsicContentSize" width="120" height="36"/>
+        </designable>
+        <designable name="Vay-CR-WSB">
+            <size key="intrinsicContentSize" width="117.5" height="36"/>
+        </designable>
+        <designable name="g5L-Ad-Z0j">
+            <size key="intrinsicContentSize" width="131" height="36"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="bag" catalog="system" width="128" height="128"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
+        <image name="highlighter" catalog="system" width="128" height="119"/>
+        <image name="questionmark.square.dashed" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
